@@ -11,7 +11,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 echo "Cloning the repository..."
-                git branch: 'main', url: 'https://github.com/TALSAGI1/full_stuck_cicd.git'
+                git branch: 'master', url: 'https://github.com/TALSAGI1/full_stuck_cicd.git'
             }
         }
         stage('Build Docker Image') {
