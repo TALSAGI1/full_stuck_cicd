@@ -1,8 +1,8 @@
-from flask import Flask
+from flask import Flask 
 app = Flask(__name__)
 
-@app.route('/')
-def hello_world():
+@app.route('/') 
+def hello_world(): 
     return 'Hello, CI/CD with Jenkins, Docker, and Kubernetes!'
 
 if __name__ == '__main__':
